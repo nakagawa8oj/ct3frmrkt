@@ -15,52 +15,52 @@ class ItemsTableSeeder extends Seeder
     public function run()
     {
            $param = [
-        'itemimage' => 'coachtech_watch.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_watch.jpg',
         'itemtitle' => '腕時計',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_hdd.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_hdd.jpg',
         'itemtitle' => 'HDD',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_onion.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_onion.jpg',
         'itemtitle' => '玉ねぎ3束',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_mensshoes.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_mensshoes.jpg',
         'itemtitle' => '革靴',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_laptop.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_laptop.jpg',
         'itemtitle' => 'ノートPC',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_mic.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_mic.jpg',
         'itemtitle' => 'マイク',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_purse.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_purse.jpg',
         'itemtitle' => 'ショルダーバッグ',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_tumbler.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_tumbler.jpg',
         'itemtitle' => 'タンブラー',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_coffeegrinder.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_coffeegrinder.jpg',
         'itemtitle' => 'コーヒーミル',
     ];
     DB::table('items')->insert($param);
    $param = [
-        'itemimage' => 'storage/app/public/itemimages/coachtech_cosmeset.jpg',
+        'itemimage' => 'storage/itemimages/coachtech_cosmeset.jpg',
         'itemtitle' => 'メイクセット',
     ];
     DB::table('items')->insert($param);
