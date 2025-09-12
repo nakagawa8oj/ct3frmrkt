@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +15,8 @@ use App\Http\Controllers\ItemController;
 */
 
 Route::get('/', [ItemController::class, 'index']);
-
 Route::get('/app/search', [ItemController::class, 'search']);
+
+Route::middleware('auth')->group(function () {
+     Route::get('/', [UserController::class, 'index']);
+ });
